@@ -1,0 +1,33 @@
+:root {
+  --accent: #ff9900; /* bitcoin orange */
+}
+
+@media only screen and (max-width: 720px) {
+  .flex {
+    flex-direction: column;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.assignment {
+  text-decoration: none;
+
+}
+
+.assignment > img {
+  max-height: 200px;
+
+}
+
+.assignment > div {
+  transition: ease-in-out 0.2s;
+  padding: 5px;
+  color: var(--text);
+}
+
+.assignment > div:hover {
+  transform: scale(1.01);
+}
